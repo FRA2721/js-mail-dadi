@@ -1,0 +1,122 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common-section */
+/* html */
+html{
+    font-family: "Trirong", serif;
+    font-size: .8rem;
+}
+
+/* body */
+body {
+    background-color: rgb(246, 237, 237);
+}
+
+/* container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* typography */
+h1 {
+    margin: 3rem 0;
+    text-align: center;
+    color: black; 
+    transition-duration: 2s;
+}
+
+h1:hover{
+    transform: scale(1.3);
+}
+
+.ms_mb-2 {
+    margin-bottom: .5rem;
+}
+
+/* text */
+.left-text{
+    text-align: left;
+}
+/* submit */
+#submit {
+    margin-top: 1.5rem;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 2s;
+    box-shadow: 10px 10px 8px;
+    border-radius: 30px 15px;
+}
+
+#submit:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.3);
+    border-radius: 15px 30px;
+}
+
+/* name */
+#name{
+    border: none;
+    color: black;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 3px solid grey;
+}
+
+/* email */
+#email{
+    border: none;
+    color: black;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 3px solid grey;
+}
+
+/* main-section */
+.ms_form-card {
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;; 
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 50px;
+    box-shadow: 10px 10px 8px;
+}
+
+#schedule_1{
+    transition-duration: 2s;
+    color: white;
+}
+
+#schedule_1:hover{ 
+    cursor: pointer;
+    width: 100%;
+    transform: scale(1.1);
+    border-radius: 60px 120px;
+    color: black;
+    background-color:white;
+}
